@@ -169,8 +169,6 @@ describe("Util", ()=>{
 
   it("should properly format display values", () => {
     expect(formatDisplay(100)).toEqual("100")
-    expect(formatDisplay("test")).toEqual("0")
-    expect(formatDisplay()).toEqual("0")
     expect(formatDisplay(10.20)).toEqual("10.2")
     expect(formatDisplay(10.22)).toEqual("10.22")
     expect(formatDisplay(0.22)).toEqual("0.22")
@@ -183,6 +181,5 @@ describe("Util", ()=>{
     expect(formatInput("")).toEqual("0")
     expect(formatInput(0.00)).toEqual("0")
     expect(formatInput(0.0)).toEqual("0")
-    expect(formatInput("0000.00")).toEqual("0")
   })
 })
