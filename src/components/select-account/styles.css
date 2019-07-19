@@ -1,0 +1,32 @@
+.balance {
+  font-size: 12px;
+}
+
+.accountSelector {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.accountSelector:hover {
+  color: blue;
+  cursor: pointer;
+
+}
+
+.selectAccountContainer {
+  position: absolute;
+  display: none;
+  width: 100px;
+  background-color: #f9f9f9;
+  z-index: 100;
+}
+
+.visible {
+  display: block;
+}
+
+.currency:hover {
+  color: blue;
+  cursor: pointer;
+}
