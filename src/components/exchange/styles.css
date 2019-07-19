@@ -1,0 +1,33 @@
+.wrap {
+  position: relative;
+  width: 300px;
+  padding: 20px;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.switch {
+  opacity: 0.8;
+  position: absolute;
+  top: -15px;
+  left: 40px;
+}
+
+.switch:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.button {
+  cursor: pointer;
+  margin: 20px;
+  font-size: 20px;
+  border-radius: 5;
+  border: none;
+  color: white;
+  background-color: blue;
+  padding: 10px 20px;
+}
